@@ -1,4 +1,4 @@
-package algorithm.divisible;
+package algorithm.programmers.level1;
 
 import java.util.Arrays;
 
