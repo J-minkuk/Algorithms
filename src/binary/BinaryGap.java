@@ -1,4 +1,4 @@
-package algorithm.binary;
+package binary;
 
 /*
     이진수 1과 1 사이 0의 개수의 최댓값 리턴

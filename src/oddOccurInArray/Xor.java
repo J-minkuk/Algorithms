@@ -1,4 +1,4 @@
-package algorithm.oddOccurInArray;
+package oddOccurInArray;
 
 public class Xor {
 

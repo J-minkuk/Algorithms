@@ -1,4 +1,4 @@
-package algorithm.StandardInOut.StringBuilder;
+package StdInOut.StringBuilder;
 
 public class Ex01 {
 

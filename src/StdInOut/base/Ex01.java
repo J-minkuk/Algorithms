@@ -1,4 +1,4 @@
-package algorithm.StandardInOut.base;
+package StdInOut.base;
 
 public class Ex01 {
 

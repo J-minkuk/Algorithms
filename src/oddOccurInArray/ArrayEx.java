@@ -1,4 +1,4 @@
-package algorithm.oddOccurInArray;
+package oddOccurInArray;
 
 import java.util.Arrays;
 

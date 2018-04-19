@@ -1,4 +1,4 @@
-package algorithm.StandardInOut.first;
+package StdInOut.first;
 
 import java.util.HashMap;
 import java.util.Map;
