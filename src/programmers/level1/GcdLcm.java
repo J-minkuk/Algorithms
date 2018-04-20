@@ -25,7 +25,7 @@ public class GcdLcm {
     return answer;
   }
 
-  // 아래는 테스트로 출력해 보기 위한 코드입니다.
+
   public static void main(String[] args) {
     GcdLcm c = new GcdLcm();
     System.out.println(Arrays.toString(c.gcdlcm(3, 12)));
