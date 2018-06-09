@@ -1,4 +1,4 @@
-package oddOccurInArray;
+package array.odd.occurences;
 
 import java.util.HashMap;
 

@@ -1,4 +1,4 @@
-package oddOccurInArray;
+package array.odd.occurences;
 
 public class Xor {
 
