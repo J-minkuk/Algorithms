@@ -14,6 +14,8 @@ public class Fibonacci {
     int count = 1;
     long a = 0, b = 1;
 
+    if (num <= 1) return num;
+
     while (count < num) {
       answer = a + b;
       a = b;
@@ -26,7 +28,7 @@ public class Fibonacci {
   // 아래는 테스트로 출력해 보기 위한 코드입니다.
   public static void main(String[] args) {
     Fibonacci c = new Fibonacci();
-    int testCase = 10;
+    int testCase = 3;
     System.out.println(c.recursiveFibonacci(testCase));
     System.out.println(c.loopFibonacci(testCase));
   }
