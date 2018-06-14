@@ -5,10 +5,11 @@ import java.util.Arrays;
 public class ReverseArray {
 
   static void reverseArray(int[] a) {
-    for (int i = 0; i < a.length / 2; ++i) {
+    int size = a.length;
+    for (int i = 0; i < size / 2; ++i) {
       int temp = a[i];
-      a[i] = a[(a.length - 1) - i];
-      a[(a.length - 1) - i] = temp;
+      a[i] = a[(size - 1) - i];
+      a[(size - 1) - i] = temp;
     }
   }
 

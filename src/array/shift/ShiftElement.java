@@ -6,16 +6,18 @@ public class ShiftElement {
 
   static void leftShiftElement(int[] a) {
     int temp = a[0];
-    for (int i = 0; i < a.length - 1; ++i) {
+    int size = a.length;
+    for (int i = 0; i < size - 1; ++i) {
       a[i] = a[i + 1];
     }
-    a[a.length - 1] = temp;
+    a[size - 1] = temp;
   }
 
   static void rightShiftElement(int[] a) {
-    int temp = a[a.length - 1];
-    for (int i = a.length - 2; i >= 0; --i) {
-      a[i+1] = a[i];
+    int size = a.length;
+    int temp = a[size - 1];
+    for (int i = size - 2; i >= 0; --i) {
+      a[i + 1] = a[i];
     }
     a[0] = temp;
   }

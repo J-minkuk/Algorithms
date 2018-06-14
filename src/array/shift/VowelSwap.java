@@ -10,7 +10,8 @@ public class VowelSwap {
     List<String> list = new ArrayList<>();
     String s = str.toLowerCase();
 
-    for (int i = 0; i < str.length(); ++i) {
+    int strSize = str.length();
+    for (int i = 0; i < strSize; ++i) {
       char c = s.charAt(i);
       if (c == 'a' || c == 'e' || c == 'i' || c == 'o' || c == 'u') {
         list.add(Character.toString(str.charAt(i)));
@@ -18,7 +19,7 @@ public class VowelSwap {
     }
 
     int size = list.size();
-    for (int i = 0; i < str.length(); ++i) {
+    for (int i = 0; i < strSize; ++i) {
       char c = s.charAt(i);
       if (c == 'a' || c == 'e' || c == 'i' || c == 'o' || c == 'u') {
         sb.append(list.get(--size));
