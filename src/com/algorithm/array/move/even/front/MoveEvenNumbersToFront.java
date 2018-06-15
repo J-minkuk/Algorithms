@@ -3,6 +3,9 @@ package com.algorithm.array.move.even.front;
 import java.util.Arrays;
 import java.util.Random;
 
+/*
+ * 배열에서 짝수는 앞으로 홀수는 뒤로, 그다음 정렬까지
+ */
 public class MoveEvenNumbersToFront {
 
   static void swap(int[] a, int i, int j) {

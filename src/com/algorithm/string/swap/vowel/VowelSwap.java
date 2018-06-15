@@ -3,6 +3,9 @@ package com.algorithm.string.swap.vowel;
 import java.util.ArrayList;
 import java.util.List;
 
+/*
+ * 모음 위치 바꾸기
+ */
 public class VowelSwap {
 
   static String vowelSwap(String str) {

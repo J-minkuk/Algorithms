@@ -2,7 +2,7 @@ package com.algorithm.string.reverse;
 
 import java.util.Stack;
 
-/**
+/*
  * 문자열 거꾸로 만들기
  */
 public class ReverseString {

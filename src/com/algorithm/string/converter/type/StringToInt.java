@@ -1,5 +1,8 @@
 package com.algorithm.string.converter.type;
 
+/*
+ * 형변환
+ */
 public class StringToInt {
 
   static int converter(String str) {

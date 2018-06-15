@@ -2,6 +2,9 @@ package com.algorithm.array.reverse;
 
 import java.util.Arrays;
 
+/*
+ * 배열 거꾸로 만들기
+ */
 public class ReverseArray {
 
   static void reverseArray(int[] a) {

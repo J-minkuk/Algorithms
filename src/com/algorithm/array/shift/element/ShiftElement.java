@@ -2,6 +2,9 @@ package com.algorithm.array.shift.element;
 
 import java.util.Arrays;
 
+/*
+ * 배열 요소 왼쪽, 오른쪽으로 옮기기
+ */
 public class ShiftElement {
 
   static void leftShiftElement(int[] a) {

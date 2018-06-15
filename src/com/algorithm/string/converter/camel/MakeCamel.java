@@ -1,5 +1,8 @@
 package com.algorithm.string.converter.camel;
 
+/*
+ * 문자열 Camel 스타일로 바꾸기
+ */
 public class MakeCamel {
 
   static String makeCamelFirstLowerCase(String str) {

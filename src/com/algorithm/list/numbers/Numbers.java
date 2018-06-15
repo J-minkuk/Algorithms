@@ -3,7 +3,7 @@ package com.algorithm.list.numbers;
 import java.util.ArrayList;
 import java.util.List;
 
-/**
+/*
  * 숫자가 들어있는 리스트 만들기
  */
 public class Numbers {
