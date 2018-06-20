@@ -27,7 +27,7 @@ public class Numbers {
   }
 
   public static void main(String[] args) {
-    makeList1(9);
+    makeList1(10000);
     for (int i = 0; i < list.size(); ++i) {
       System.out.print(list.get(i)+ " ");
     }

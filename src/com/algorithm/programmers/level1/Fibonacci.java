@@ -25,12 +25,22 @@ public class Fibonacci {
     return answer;
   }
 
+  static long[] a = new long[10000];
+
+  public long dpFibonacci(int num) {
+    if (a[num] != 0) return a[num];
+    if (num == 1 || num == 2) a[num] = 1;
+    else a[num] = dpFibonacci(num - 1) + dpFibonacci(num - 2);
+    return a[num];
+  }
+
   // 아래는 테스트로 출력해 보기 위한 코드입니다.
   public static void main(String[] args) {
     Fibonacci c = new Fibonacci();
-    int testCase = 3;
+    int testCase = 4;
     System.out.println(c.recursiveFibonacci(testCase));
     System.out.println(c.loopFibonacci(testCase));
+    System.out.println(c.dpFibonacci(1000));
   }
 
 }
