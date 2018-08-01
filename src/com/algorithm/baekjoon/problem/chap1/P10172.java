@@ -1,4 +1,4 @@
-package com.algorithm.baekjoon.problem;
+package com.algorithm.baekjoon.problem.chap1;
 
 /**
  * 강아지 그리기

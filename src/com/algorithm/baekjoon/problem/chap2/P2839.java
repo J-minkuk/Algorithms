@@ -1,4 +1,4 @@
-package com.algorithm.baekjoon.problem;
+package com.algorithm.baekjoon.problem.chap2;
 
 import java.util.Scanner;
 
