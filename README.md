@@ -27,7 +27,7 @@
 * 이렇게 구하는 방법도 알아야 하나? (GCD & LCM)
     * [P1850](./src/com/algorithm/baekjoon/problem/chap18/P1850.java)
 
-### 이해가 안되는 것<br/>댓글로 설명해주시면 '감사인사'에 이름 새겨드립니다.
+### 이해가 안되는 것<br/>(댓글로 설명해주시면 '감사인사'에 이름 새겨드립니다.)
 * 왜 첫째 자리 수 구하는데 (% 10)을 해야하지?
     * [P1065](./src/com/algorithm/baekjoon/problem/chap5/P1065.java)
     
