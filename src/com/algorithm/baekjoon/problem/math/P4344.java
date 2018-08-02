@@ -1,6 +1,5 @@
-package com.algorithm.baekjoon.problem.chap4;
+package com.algorithm.baekjoon.problem.math;
 
-import java.text.Format;
 import java.util.ArrayList;
 import java.util.Scanner;
 

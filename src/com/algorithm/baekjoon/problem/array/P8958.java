@@ -1,4 +1,4 @@
-package com.algorithm.baekjoon.problem.chap6;
+package com.algorithm.baekjoon.problem.array;
 
 import java.util.Scanner;
 
@@ -13,7 +13,7 @@ public class P8958 {
     int testCase = scanner.nextInt();
 
     String[] strArr = new String[testCase];
-    int [] numArr = new int[testCase];
+    int[] numArr = new int[testCase];
     int score = 0;
 
     for (int i = 0; i < testCase; ++i) {
