@@ -1,11 +1,11 @@
-package com.algorithm.baekjoon.problem;
+package com.algorithm.baekjoon.problem.rules;
 
 import java.util.Scanner;
 
 /**
- * 별찍기 - 11
+ * TODO 별찍기 - 11
  */
-public class P2448 {
+public class P2448_not {
 
   public static void main(String[] args) {
 
