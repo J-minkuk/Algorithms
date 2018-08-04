@@ -36,7 +36,7 @@ public class P2839 {
     // Case 2: 5kg으로 먼저 나누고 3kg으로 나머지를 할당 가능한 경우
     for (int i = (n / FIVE_KG); i >= 1; --i) {
       int modFive = n - (i * FIVE_KG);
-      if ((modFive != 0)) {
+      if (modFive != 0) {
         // 5로 나눈 것의 나머지가 3으로 나누어 떨이지는 경우
         if (modFive % 3 == 0) {
           fiveMax = i;
