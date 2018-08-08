@@ -25,11 +25,15 @@
 * Enter만 입력된 것이 비어있는지 확인하려면 isEmpty() 활용
     * [P1152](./src/com/algorithm/baekjoon/problem/string/P1152.java)
 * 이렇게 구하는 방법도 알아야 하나? (GCD & LCM)
-    * [P1850](./src/com/algorithm/baekjoon/problem/chap18/P1850.java)
+    * [P1850](./src/com/algorithm/baekjoon/problem/math/P1850_recursive.java)
+* Comparator
+    * [P1181](./src/com/algorithm/baekjoon/problem/sort/P1181.java)
 
 ### 이해가 안되는 것<br/>(댓글로 설명해주시면 '감사인사'에 이름 새겨드립니다.)
 * 왜 첫째 자리 수 구하는데 (% 10)을 해야하지?
     * [P1065](./src/com/algorithm/baekjoon/problem/math/P1065.java)
+* 시간 초과 실화..?
+    * [P6064](./src/com/algorithm/baekjoon/problem/rules/P6064_not.java)
     
 ---
 
