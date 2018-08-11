@@ -28,6 +28,8 @@
     * [P1850](./src/com/algorithm/baekjoon/problem/math/P1850_recursive.java)
 * Comparator
     * [P1181](./src/com/algorithm/baekjoon/problem/sort/P1181.java)
+* 에라토스테네스의 체
+    * [P1929](./src/com/algorithm/baekjoon/problem/math/P1929.java)
 
 ### 이해가 안되는 것<br/>(댓글로 설명해주시면 '감사인사'에 이름 새겨드립니다.)
 * 왜 첫째 자리 수 구하는데 (% 10)을 해야하지?
