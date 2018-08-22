@@ -34,8 +34,10 @@
 ### 이해가 안되는 것<br/>(댓글로 설명해주시면 '감사인사'에 이름 새겨드립니다.)
 * 왜 첫째 자리 수 구하는데 (% 10)을 해야하지?
     * [P1065](./src/com/algorithm/baekjoon/problem/math/P1065.java)
-* 시간 초과 실화..?
+* 시간 초과 실화 ??
     * [P6064](./src/com/algorithm/baekjoon/problem/rules/P6064_not.java)
+* W 의미 없는 값 아닌가 ??
+    * [P10250](./src/com/algorithm/baekjoon/problem/rules/P10250.java)
     
 ---
 
