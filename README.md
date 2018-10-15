@@ -30,6 +30,8 @@
     * [P1181](./src/com/algorithm/baekjoon/problem/sort/P1181.java)
 * 에라토스테네스의 체
     * [P1929](./src/com/algorithm/baekjoon/problem/math/P1929.java)
+* 베르트랑 공준
+    * [P4948](./src/com/algorithm/baekjoon/problem/math/P4948.java)
 
 ### 이해가 안되는 것<br/>(댓글로 설명해주시면 '감사인사'에 이름 새겨드립니다.)
 * 시간 초과 실화 ?
@@ -40,4 +42,4 @@
 ---
 
 ### 감사인사
-* jiyoon jeon - [jeon9825](https://github.com/jeon9825)
+* **jiyoon jeon** - [jeon9825](https://github.com/jeon9825)
