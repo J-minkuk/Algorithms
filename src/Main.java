@@ -1,8 +1,7 @@
-import java.util.Scanner;
+import java.io.IOException;
 
 public class Main {
-  public static void main(String[] args) {
-    Scanner scanner = new Scanner(System.in);
-    int testCase = scanner.nextInt();
+  public static void main(String[] args) throws IOException {
+
   }
 }
