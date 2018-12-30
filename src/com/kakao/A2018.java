@@ -1,4 +1,4 @@
-package kakao;
+package com.kakao;
 
 import java.util.HashMap;
 import java.util.Map;
