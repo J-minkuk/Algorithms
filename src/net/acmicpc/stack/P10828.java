@@ -3,7 +3,7 @@ package net.acmicpc.stack;
 import java.util.Scanner;
 
 /**
- * 스택
+ * 스택 구현
  */
 public class P10828 {
   public static void main(String[] args) {
@@ -15,17 +15,13 @@ public class P10828 {
       if (s.equals("push")) {
         int n = scanner.nextInt();
         stack.push(n);
-      }
-      else if (s.equals("top")) {
+      } else if (s.equals("top")) {
         stack.top();
-      }
-      else if (s.equals("pop")) {
+      } else if (s.equals("pop")) {
         stack.pop();
-      }
-      else if (s.equals("size")) {
+      } else if (s.equals("size")) {
         stack.size();
-      }
-      else if (s.equals("empty")) {
+      } else if (s.equals("empty")) {
         stack.empty();
       }
     }
@@ -51,8 +47,7 @@ public class P10828 {
     public void pop() {
       if (size == 0) {
         System.out.println(-1);
-      }
-      else {
+      } else {
         System.out.println(top.data);
         top = top.next;
         size--;
@@ -62,8 +57,7 @@ public class P10828 {
     public void empty() {
       if (size == 0) {
         System.out.println(1);
-      }
-      else {
+      } else {
         System.out.println(0);
       }
     }
@@ -71,8 +65,7 @@ public class P10828 {
     public void top() {
       if (top == null) {
         System.out.println(-1);
-      }
-      else {
+      } else {
         System.out.println(top.data);
       }
     }
