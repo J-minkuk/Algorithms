@@ -5,13 +5,28 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.Arrays;
 
-public class D3_1208 {
+public class D3_1208_Recursive {
+
+  static int dumpsCount;
+  static int count;
+
+  private static void activeDump(int[] boxHeights) {
+    if (count == dumpsCount) return;
+    else {
+      count++;
+      boxHeights[boxHeights.length - 1]--;
+      boxHeights[0]++;
+      Arrays.sort(boxHeights);
+      activeDump(boxHeights);
+    }
+  }
+
   public static void main(String[] args) throws IOException {
     BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-//    BufferedReader br = new BufferedReader(new FileReader("D:\\sts_projects\\Algorithm\\src\\com\\swea\\D3\\testcase\\1208_input.txt"));
+//    BufferedReader br = new BufferedReader(new FileReader("C:\\intelliJ_workspaces\\Algorithm\\src\\com\\swea\\D3\\testcase\\1208input.txt"));
 
     for (int i = 0; i < 10; ++i) {
-      int dumpsCount = Integer.parseInt(br.readLine());
+      dumpsCount = Integer.parseInt(br.readLine());
 
       String[] temp = br.readLine().split(" ");
       int[] boxHeights = new int[temp.length];
@@ -20,11 +35,8 @@ public class D3_1208 {
       }
       Arrays.sort(boxHeights);
 
-      for (int count = 0; count < dumpsCount; ++count) {
-        boxHeights[boxHeights.length - 1]--;
-        boxHeights[0]++;
-        Arrays.sort(boxHeights);
-      }
+      count = 0;
+      activeDump(boxHeights);
       int result = boxHeights[boxHeights.length - 1] - boxHeights[0];
       System.out.println("#" + (i + 1) + " " + result);
     }
