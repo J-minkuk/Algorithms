@@ -1,4 +1,4 @@
-package net.acmicpc.none;
+package net.acmicpc.배열;
 
 import java.util.Scanner;
 

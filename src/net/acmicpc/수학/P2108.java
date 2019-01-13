@@ -1,4 +1,4 @@
-package net.acmicpc.none;
+package net.acmicpc.수학;
 
 import java.util.*;
 

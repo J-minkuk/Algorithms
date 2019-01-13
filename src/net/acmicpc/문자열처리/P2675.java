@@ -1,4 +1,4 @@
-package net.acmicpc.none;
+package net.acmicpc.문자열처리;
 
 import java.util.Scanner;
 
