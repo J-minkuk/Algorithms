@@ -1,4 +1,4 @@
-# Algorithm
+# Algorithms
 ```
 나만의 강아지 만들기 ? 
 그루트 만들기 ?
