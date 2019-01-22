@@ -50,7 +50,7 @@ public class D4_1224 {
     return sb.toString();
   }
 
-  private static long caculate(String postfix) {
+  private static long calculate(String postfix) {
     Stack<Long> stack = new Stack<>();
     char[] chars = postfix.toCharArray();
     char temp;
@@ -88,7 +88,7 @@ public class D4_1224 {
     BufferedReader br = new BufferedReader(new FileReader("C:\\intelliJ_workspaces\\Algorithm\\src\\com\\swea\\D4\\testcase\\1224input.txt"));
     for (int t = 1; t <= 10; ++t) {
       br.readLine();
-      System.out.println("#" + t + " " + caculate(toPostFix(br.readLine())));
+      System.out.println("#" + t + " " + calculate(toPostFix(br.readLine())));
     }
   }
 }
