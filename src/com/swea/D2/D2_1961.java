@@ -44,11 +44,8 @@ public class D2_1961 {
           System.out.print(arr[i][N - j - 1]);
           if (i == N - 1) System.out.print(" ");
         }
-
         System.out.println();
       }
-
-      List<String> list = new ArrayList<>();
     }
   }
 }
