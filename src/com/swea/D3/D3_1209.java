@@ -7,14 +7,13 @@ import java.io.InputStreamReader;
 
 public class D3_1209 {
   public static void main(String[] args) throws IOException {
-    BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-    BufferedReader br1 = new BufferedReader(new FileReader("D:\\sts_projects\\Algorithm\\src\\com\\swea\\D3\\testcase\\1209_input.txt"));
+    BufferedReader br1 = new BufferedReader(new InputStreamReader(System.in));
+    BufferedReader br = new BufferedReader(new FileReader("C:\\intelliJ_workspaces\\Algorithm\\src\\com\\swea\\D3\\testcase\\1209input.txt"));
 
-    for (int i = 0; i < 10; ++i) {
+    for (int t = 1; t <= 10; ++t) {
       int testCaseNum = Integer.parseInt(br.readLine());
       int[][] arr = new int[100][100];
       int max = 0;
-      int sum = 0;
 
       // 입력값 2차원 배열로 만들기
       for (int x = 0; x < 100; ++x) {
@@ -25,38 +24,26 @@ public class D3_1209 {
         }
       }
 
-      // 각 행의 합 중 최댓값
-      for (int col = 0; col < 100; ++col) {
-        sum = 0;
-        for (int row = 0; row < 100; ++row) {
-          sum += arr[col][row];
-          if (sum > max) max = sum;
+      for (int i = 0; i < 100; ++i) {
+        int sumCol = 0;
+        int sumRow = 0;
+        for (int j = 0; j < 100; ++j) {
+          sumCol += arr[i][j];
+          sumRow += arr[j][i];
         }
+        if (sumCol > max) max = sumCol;
+        if (sumRow > max) max = sumRow;
       }
 
-      // 각 열의 합 중 최댓값
-      for (int row = 0; row < 100; ++row) {
-        sum = 0;
-        for (int col = 0; col < 100; ++col) {
-          sum += arr[col][row];
-          if (sum > max) max = sum;
-        }
-      }
-
-      // 각 대각선의 합 중 최댓값 - Case 1
-      sum = 0;
+      int sum1 = 0;
+      int sum2 = 0;
       for (int idx = 0; idx < 100; ++idx) {
-        sum += arr[idx][idx];
-        if (sum > max) max = sum;
+        sum1 += arr[idx][idx];
+        sum2 += arr[idx][100 - idx - 1];
       }
+      if (sum1 > max) max = sum1;
+      if (sum2 > max) max = sum2;
 
-      // 각 대각선의 합 중 최댓값 - Case 2
-      sum = 0;
-      int colIdx = 0;
-      for (int idx = 99; idx >= 0; --idx) {
-        sum += arr[colIdx++][idx];
-        if (sum > max) max = sum;
-      }
       System.out.println("#" + testCaseNum + " " + max);
     }
   }
