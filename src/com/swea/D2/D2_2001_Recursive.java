@@ -5,7 +5,7 @@ import java.io.FileReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
-public class D2_2001 {
+public class D2_2001_Recursive {
   static int M, N;
   static int[][] arr;
   static int max;
