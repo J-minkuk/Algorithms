@@ -1,10 +1,10 @@
-package com.swea.D4;
+package com.swea.D3;
 
 import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.util.Scanner;
 
-public class D4_1217_Recursive {
+public class D3_1217_Recursive {
   static int N;
   static long result;
   static long count;
