@@ -4,7 +4,7 @@ import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.util.Scanner;
 
-public class D1_2063_CountingSort {
+public class D1_2063_카운팅정렬 {
   public static void main(String[] args) throws FileNotFoundException {
     Scanner sc = new Scanner(new FileReader("C:\\intelliJ_workspaces\\Algorithm\\src\\com\\swea\\D1\\testcase\\2063input.txt"));
     Scanner sc1 = new Scanner(System.in);

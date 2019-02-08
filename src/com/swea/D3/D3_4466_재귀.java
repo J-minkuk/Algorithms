@@ -5,7 +5,7 @@ import java.io.FileReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
-public class D3_4466_Recursive {
+public class D3_4466_재귀 {
   static int N;
   static int K;
   static int max;

@@ -5,7 +5,7 @@ import java.io.FileReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
-public class D4_1210_Recursive {
+public class D4_1210_재귀 {
   static int startCol, startRow;
   static int[][] ladder;
   static int testCaseNum;

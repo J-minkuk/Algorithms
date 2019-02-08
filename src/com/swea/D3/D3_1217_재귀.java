@@ -4,7 +4,7 @@ import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.util.Scanner;
 
-public class D3_1217_Recursive {
+public class D3_1217_재귀 {
   static int N;
   static long result;
   static long count;

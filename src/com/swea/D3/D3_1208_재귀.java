@@ -5,7 +5,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.Arrays;
 
-public class D3_1208_Recursive {
+public class D3_1208_재귀 {
 
   static int dumpsCount;
   static int count;

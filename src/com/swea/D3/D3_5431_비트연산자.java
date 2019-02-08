@@ -5,7 +5,7 @@ import java.io.FileReader;
 import java.math.BigInteger;
 import java.util.Scanner;
 
-public class D3_5431_BitOperator {
+public class D3_5431_비트연산자 {
   public static void main(String[] args) throws FileNotFoundException {
     Scanner sc = new Scanner(new FileReader("C:\\intelliJ_workspaces\\Algorithm\\src\\com\\swea\\D3\\testcase\\0110input.txt"));
     int T = sc.nextInt();

@@ -3,7 +3,7 @@ package com.swea.D4;
 import java.io.*;
 import java.util.Stack;
 
-public class D4_1218_Stack {
+public class D4_1218_스택 {
   public static void main(String[] args) throws IOException {
     BufferedReader br1 = new BufferedReader(new InputStreamReader(System.in));
     BufferedReader br = new BufferedReader(new FileReader("C:\\intelliJ_workspaces\\Algorithm\\src\\com\\swea\\D4\\testcase\\1218input.txt"));
