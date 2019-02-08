@@ -4,9 +4,21 @@ import java.io.*;
 import java.util.StringTokenizer;
 
 /**
+ * [나머지 정리]
  * (a + b) % P = ((a % P) + (b % P)) % P
  * (a - b) % P = ((a % P) - (b % P)) % P
  * (a * b) % P = ((a % P) * (b % P)) % P
+ *
+ * [페르마의 소정리]
+ * a, p 서로소 G(a, p) = 1
+ * a^(p-1) = 1 (%p)  ==>  ex) a = 8, p = 5  ==>  8^4 = 4096 (%5) 나머지 1 (성립)
+ *
+ * [따름 정리]
+ * G(a, p) != 1
+ * a = 0 (%p) => p가 a의 약수가 되므로
+ * a^p = 0 (%p)
+ * a^p = a (%p)
+ *  * G(a, p) = 1  =>  a^(p-1) = 1  =>  a^p = a
  */
 
 /*
