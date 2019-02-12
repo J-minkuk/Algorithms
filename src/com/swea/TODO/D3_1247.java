@@ -6,9 +6,6 @@ public class D3_1247 {
   static int N;
   static int[][] NP;
   static int result;
-  static int tempDis;
-  static boolean[] check;
-  static int count;
   static int hX, hY;
 
   public static void main(String[] args) {
@@ -26,36 +23,28 @@ public class D3_1247 {
         NP[i][1] = sc.nextInt();
       }
 
-      result = 0;
-      tempDis = Integer.MAX_VALUE;
-      count = 0;
-      check = new boolean[N];
-      minDistance(cX, cY);
+      result = Integer.MAX_VALUE;
+      boolean[] check = new boolean[N];
+      minDistance(0, 0, cX, cY, check);
       System.out.println("#" + t + " " + result);
     }
   }
 
-  private static void minDistance(int startX, int startY) {
-//    System.out.println(startX + " " + startY);
+  private static void minDistance(int tempDis, int count, int startX, int startY, boolean[] check) {
     if (count == N) {
-      result += Math.abs(startX - hX) + Math.abs(startY - hY);
+      tempDis += Math.abs(startX - hX) + Math.abs(startY - hY);
+      if (result > tempDis) result = tempDis;
       return;
     }
 
-    int idx = 0;
     for (int i = 0; i < N; ++i) {
       if (!check[i]) {
-        int dis = Math.abs(startX - NP[i][0]) + Math.abs(startY - NP[i][1]);
-        if (tempDis > dis) {
-          idx = i;
-          tempDis = dis;
-        }
+        tempDis += Math.abs(startX - NP[i][0]) + Math.abs(startY - NP[i][1]);
+        check[i] = true;
+        minDistance(tempDis, count + 1, NP[i][0], NP[i][1], check);
+        tempDis -= Math.abs(startX - NP[i][0]) + Math.abs(startY - NP[i][1]);
+        check[i] = false;
       }
     }
-    check[idx] = true;
-    result += tempDis;
-    tempDis = Integer.MAX_VALUE;
-    count++;
-    minDistance(NP[idx][0], NP[idx][1]);
   }
 }
