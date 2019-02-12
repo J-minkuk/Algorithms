@@ -1,4 +1,4 @@
-package com.swea.TODO;
+package com.swea.D3;
 
 import java.util.Scanner;
 
