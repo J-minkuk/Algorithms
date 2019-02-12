@@ -1,4 +1,4 @@
-package net.acmicpc.순열;
+package net.acmicpc.순열조합;
 
 import java.util.Scanner;
 
