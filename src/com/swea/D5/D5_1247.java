@@ -1,8 +1,8 @@
-package com.swea.D3;
+package com.swea.D5;
 
 import java.util.Scanner;
 
-public class D3_1247 {
+public class D5_1247 {
   static int N;
   static int[][] NP;
   static int result;
