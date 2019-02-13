@@ -1,6 +1,6 @@
 package kr.co.programmers.level1;
 
-public class ElementsAverageInArray {
+public class 평균_구하기 {
 
   public int getMean(int[] array) {
     int average, sum = 0;
@@ -14,7 +14,7 @@ public class ElementsAverageInArray {
 
   public static void main(String[] args) {
     int x[] = {5, 4, 3};
-    ElementsAverageInArray getMean = new ElementsAverageInArray();
+    평균_구하기 getMean = new 평균_구하기();
     // 아래는 테스트로 출력해 보기 위한 코드입니다.
     System.out.println("평균값 : " + getMean.getMean(x));
   }

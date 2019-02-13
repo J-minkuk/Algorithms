@@ -2,7 +2,7 @@ package kr.co.programmers.level1;
 
 import java.util.Arrays;
 
-public class GcdLcm {
+public class 최대공약수와_최소공배수 {
   public int[] gcdlcm(int a, int b) {
     int[] answer = new int[2];
 
@@ -27,7 +27,7 @@ public class GcdLcm {
 
 
   public static void main(String[] args) {
-    GcdLcm c = new GcdLcm();
+    최대공약수와_최소공배수 c = new 최대공약수와_최소공배수();
     System.out.println(Arrays.toString(c.gcdlcm(3, 12)));
   }
 }

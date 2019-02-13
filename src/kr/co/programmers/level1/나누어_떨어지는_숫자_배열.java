@@ -5,10 +5,10 @@ import java.util.Arrays;
 /*
  * divisor로 나누어 떨어지는 것들만 들어있는 배열 구하기
  */
-public class Divisible {
+public class 나누어_떨어지는_숫자_배열 {
 
   public static void main(String[] args) {
-    Divisible div = new Divisible();
+    나누어_떨어지는_숫자_배열 div = new 나누어_떨어지는_숫자_배열();
     int[] array = {5, 9, 7, 10};
     System.out.println(Arrays.toString(div.divisible(array, 5)));
   }

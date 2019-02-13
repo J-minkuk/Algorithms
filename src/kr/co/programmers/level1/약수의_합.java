@@ -1,6 +1,6 @@
 package kr.co.programmers.level1;
 
-class SumDivisor {
+class 약수의_합 {
   public int sumDivisor(int num) {
     int answer = 0;
 
@@ -12,7 +12,7 @@ class SumDivisor {
 
   // 아래는 테스트로 출력해 보기 위한 코드입니다.
   public static void main(String[] args) {
-    SumDivisor c = new SumDivisor();
+    약수의_합 c = new 약수의_합();
     System.out.println(c.sumDivisor(12));
   }
 }
