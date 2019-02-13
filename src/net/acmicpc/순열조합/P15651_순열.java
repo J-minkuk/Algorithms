@@ -4,34 +4,29 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
-public class P15652 {
+public class P15651_순열 {
   static int M;
   static int N;
   static int[] numbers;
+  static StringBuilder sb;
 
   public static void main(String[] args) throws IOException {
     BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
     String[] NM = br.readLine().split(" ");
     N = Integer.parseInt(NM[0]);
     M = Integer.parseInt(NM[1]);
-
+    sb = new StringBuilder();
     numbers = new int[M];
     permutation(0);
+    System.out.println(sb.toString().trim());
   }
 
   private static void permutation(int index) {
     if (index == M) {
-      boolean flag = true;
-      for (int i = 0; i < numbers.length - 1; ++i) {
-        if (numbers[i] > numbers[i + 1]) flag = false;
+      for (int v : numbers) {
+        sb.append(v).append(" ");
       }
-
-      if (flag) {
-        for (int v : numbers) {
-          System.out.print(v + " ");
-        }
-        System.out.println();
-      }
+      sb.append("\n");
       return;
     }
 

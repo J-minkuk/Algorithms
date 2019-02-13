@@ -4,7 +4,7 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
-public class P15650 {
+public class P15650_순열 {
   static int M;
   static int N;
   static boolean[] checked;

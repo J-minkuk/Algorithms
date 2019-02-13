@@ -7,7 +7,7 @@ import java.util.Scanner;
 /**
  * 베르트랑 공준
  */
-public class P4948 {
+public class P4948_베르트랑공준 {
   public static void main(String[] args) {
     Scanner scanner = new Scanner(System.in);
     while (true) {

@@ -4,6 +4,7 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
+// TODO P10972
 public class P10972_TODO {
   static int N;
   static boolean[] checked;

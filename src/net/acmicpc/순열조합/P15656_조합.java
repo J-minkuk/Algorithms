@@ -5,7 +5,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.Arrays;
 
-public class P15656 {
+public class P15656_조합 {
   static int M;
   static int N;
   static int[] numbers;

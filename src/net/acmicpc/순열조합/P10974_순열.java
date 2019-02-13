@@ -2,7 +2,7 @@ package net.acmicpc.순열조합;
 
 import java.util.Scanner;
 
-public class P10974 {
+public class P10974_순열 {
   static int N;
   static boolean[] checked;
   static int[] numbers;

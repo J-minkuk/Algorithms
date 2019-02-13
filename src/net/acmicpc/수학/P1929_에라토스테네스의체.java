@@ -7,7 +7,7 @@ import java.util.Scanner;
 /**
  * 에라토스테네스의 체
  */
-public class P1929 {
+public class P1929_에라토스테네스의체 {
   public static void main(String[] args) {
     Scanner scanner = new Scanner(System.in);
     int m = scanner.nextInt();
