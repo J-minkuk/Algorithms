@@ -1,4 +1,4 @@
-package kr.co.programmers.level1;
+package programmers.level1;
 
 class 약수의_합 {
   public int sumDivisor(int num) {

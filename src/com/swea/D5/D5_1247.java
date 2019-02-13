@@ -31,6 +31,8 @@ public class D5_1247 {
   }
 
   private static void minDistance(int tempDis, int count, int startX, int startY, boolean[] check) {
+    if (tempDis >= result) return;
+
     if (count == N) {
       tempDis += Math.abs(startX - hX) + Math.abs(startY - hY);
       if (result > tempDis) result = tempDis;
@@ -39,10 +41,11 @@ public class D5_1247 {
 
     for (int i = 0; i < N; ++i) {
       if (!check[i]) {
-        tempDis += Math.abs(startX - NP[i][0]) + Math.abs(startY - NP[i][1]);
+        // 연산 누적 뭐하러 하냐 count도 + 안하는데
+//        tempDis += Math.abs(startX - NP[i][0]) + Math.abs(startY - NP[i][1]);
         check[i] = true;
-        minDistance(tempDis, count + 1, NP[i][0], NP[i][1], check);
-        tempDis -= Math.abs(startX - NP[i][0]) + Math.abs(startY - NP[i][1]);
+        minDistance(tempDis + Math.abs(startX - NP[i][0]) + Math.abs(startY - NP[i][1]), count + 1, NP[i][0], NP[i][1], check);
+//        tempDis -= Math.abs(startX - NP[i][0]) + Math.abs(startY - NP[i][1]);
         check[i] = false;
       }
     }

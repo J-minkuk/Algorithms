@@ -1,4 +1,4 @@
-package kr.co.programmers.level1;
+package programmers.level1;
 
 /*
  * getMinMaxString 메소드는 String형 변수 str을 매개변수로 입력받습니다.
