@@ -1,4 +1,4 @@
-package net.acmicpc.none;
+package net.acmicpc;
 
 import java.io.BufferedReader;
 import java.io.IOException;
