@@ -5,6 +5,7 @@ import java.util.Queue;
 import java.util.Scanner;
 
 public class D4_1238_재귀 {
+  static Queue<Integer> q;
   static int[][] info;
   static boolean[] visited;
   static int result;
@@ -24,15 +25,31 @@ public class D4_1238_재귀 {
         info[from][to] = 1;
       }
 
+      q = new LinkedList<>();
       result = 0;
-      bfs1(start);
+      bfs(start, start);
       System.out.println("#" + t + " " + result);
     }
   }
 
   // TODO 재귀로도 구현하기
-  private static void bfs(int point) {
+  private static void bfs(int point, int point2) {
+//    if (q.isEmpty()) return;
 
+    q.add(point);
+    visited[point] = true;
+    int max = Integer.MIN_VALUE;
+    result = (max > point2) ? max : point2;
+
+    for (int i = 0; i < q.size(); ++i) {
+      int next = q.remove();
+      for (int p = 1; p < 101; ++p) {
+        if (visited[next]) continue;
+        if (info[next][p] == 1) {
+          bfs(next, p);
+        }
+      }
+    }
   }
 
   private static void bfs1(int point) {
