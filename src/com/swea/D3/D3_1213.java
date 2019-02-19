@@ -7,8 +7,8 @@ import java.io.InputStreamReader;
 
 public class D3_1213 {
   public static void main(String[] args) throws IOException {
-    BufferedReader br1 = new BufferedReader(new InputStreamReader(System.in));
-    BufferedReader br = new BufferedReader(new FileReader("C:\\intelliJ_workspaces\\Algorithm\\src\\com\\swea\\D3\\testcase\\1213_input.txt"));
+    BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+//    BufferedReader br1 = new BufferedReader(new FileReader("C:\\intelliJ_workspaces\\Algorithm\\src\\com\\swea\\D3\\testcase\\1213_input.txt"));
 
     for (int testCaseNum = 1; testCaseNum <= 10; ++testCaseNum) {
       int tc = Integer.parseInt(br.readLine());
@@ -18,7 +18,10 @@ public class D3_1213 {
       int inputLength = input.length();
       int count = 0;
       for (int i = 0; i <= searchText.length() - inputLength; ++i) {
-        if (searchText.substring(i, i + inputLength).equals(input)) ++count;
+        if (searchText.substring(i, i + inputLength).equals(input)) {
+          ++count;
+          i += inputLength - 1;
+        }
       }
       System.out.println("#" + tc + " " + count);
     }
