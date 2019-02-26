@@ -1,5 +1,9 @@
 package programmers.level1.remote.contest;
 
+/**
+ * 완벽하게 풀지 못함
+ * 47.6
+ */
 public class Solution3 {
 
   public int[] solution(int[] healths, int[][] items) {
