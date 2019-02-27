@@ -3,9 +3,12 @@ package com.swea.D6;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
-import java.util.Arrays;
 import java.util.StringTokenizer;
 
+/**
+ * 기타 메모 - 가중치 없는 최단 경로는 BFS
+ * 아래 코드는 플로이드-워샬 알고리즘
+ */
 public class D6_1263 {
   public static void main(String[] args) throws IOException {
     BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
@@ -23,9 +26,11 @@ public class D6_1263 {
         }
       }
 
-      for (int v = 0; v < N; ++v) {
-        for (int i = 0; i < N; ++i) {
-          for (int j = 0; j < N; ++j) {
+      for (int v = 0; v < N; ++v) { // 경유지
+        for (int i = 0; i < N; ++i) { // 출발지
+          if (i == v) continue;
+          for (int j = 0; j < N; ++j) { // 도착지
+            if (i == j || v == j) continue;
             NWT[i][j] = Math.min(NWT[i][j], NWT[i][v] + NWT[v][j]);
           }
         }
