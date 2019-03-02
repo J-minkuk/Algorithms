@@ -1,4 +1,4 @@
-package net.acmicpc;
+package net.acmicpc.출력;
 
 import java.util.ArrayList;
 import java.util.Scanner;

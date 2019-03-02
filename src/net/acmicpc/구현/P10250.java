@@ -1,4 +1,4 @@
-package net.acmicpc;
+package net.acmicpc.구현;
 
 import java.util.Scanner;
 

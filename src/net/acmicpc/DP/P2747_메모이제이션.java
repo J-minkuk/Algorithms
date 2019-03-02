@@ -1,4 +1,4 @@
-package net.acmicpc;
+package net.acmicpc.DP;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -7,7 +7,7 @@ import java.io.InputStreamReader;
 /**
  * 피보나치 - DP
  */
-public class P2747 {
+public class P2747_메모이제이션 {
 
   static int[] numbers = new int[46];
 

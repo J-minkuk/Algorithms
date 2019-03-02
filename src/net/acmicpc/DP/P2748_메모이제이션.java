@@ -1,10 +1,10 @@
-package net.acmicpc;
+package net.acmicpc.DP;
 
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
-public class P2748 {
+public class P2748_메모이제이션 {
   static long[] numbers = new long[91];
 
   public static long fibonacci(int n) {

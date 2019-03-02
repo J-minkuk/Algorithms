@@ -1,8 +1,8 @@
-package net.acmicpc;
+package net.acmicpc.순열조합;
 
 import java.util.Scanner;
 
-public class P15649 {
+public class P15649_순열 {
   static int N;
   static int R;
   static boolean[] checked;
