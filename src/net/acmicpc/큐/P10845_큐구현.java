@@ -6,7 +6,7 @@ import java.util.Scanner;
 /**
  * 큐 구현
  */
-public class P10845 {
+public class P10845_큐구현 {
 
   private static class Queue {
     private Node top = null;

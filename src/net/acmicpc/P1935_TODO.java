@@ -1,4 +1,4 @@
-package net.acmicpc.스택;
+package net.acmicpc;
 
 import java.io.BufferedReader;
 import java.io.IOException;

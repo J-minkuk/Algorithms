@@ -2,7 +2,7 @@ package net.acmicpc.분할정복;
 
 import java.util.Scanner;
 
-public class P11729 {
+public class P11729_하노이탑 {
   static int count;
   static StringBuilder sb = new StringBuilder();
 

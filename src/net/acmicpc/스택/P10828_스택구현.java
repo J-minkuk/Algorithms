@@ -5,7 +5,7 @@ import java.util.Scanner;
 /**
  * 스택 구현
  */
-public class P10828 {
+public class P10828_스택구현 {
   public static void main(String[] args) {
     Scanner scanner = new Scanner(System.in);
     int testCase = scanner.nextInt();

@@ -18,11 +18,11 @@
 * 이렇게 구하는 방법도 알아야 하나? (GCD & LCM)
     * [P1850](src/net/acmicpc/수학/P1850_recursive.java)
 * Comparator
-    * [P1181](src/net/acmicpc/정렬/P1181.java)
+    * [P1181](src/net/acmicpc/정렬/P1181_Comparator.java)
 * 에라토스테네스의 체
-    * [P1929](src/net/acmicpc/수학/P1929.java)
+    * [P1929](src/net/acmicpc/수학/P1929_에라토스테네스의체.java)
 * 베르트랑 공준
-    * [P4948](src/net/acmicpc/수학/P4948.java)
+    * [P4948](src/net/acmicpc/수학/P4948_베르트랑공준.java)
 
 ### 이해가 안되는 것
     

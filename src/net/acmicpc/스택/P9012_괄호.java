@@ -6,7 +6,7 @@ import java.util.Stack;
 /**
  * 괄호
  */
-public class P9012 {
+public class P9012_괄호 {
   public static void main(String[] args) {
     Scanner scanner = new Scanner(System.in);
     int testCase = scanner.nextInt();

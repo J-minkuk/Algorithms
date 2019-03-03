@@ -7,7 +7,7 @@ import java.util.*;
  *
  * Comparator
  */
-public class P1181 {
+public class P1181_Comparator {
   public static void main(String[] args) {
     Scanner scanner = new Scanner(System.in);
     int testCase = scanner.nextInt();
