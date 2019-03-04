@@ -1,4 +1,4 @@
-package programmers.level1.remote.contest;
+package programmers.remote.contest;
 
 /**
  * 완벽하게 풀지 못함

@@ -1,4 +1,4 @@
-package programmers.level1.remote.contest;
+package programmers.remote.contest;
 
 import java.util.ArrayList;
 import java.util.List;
