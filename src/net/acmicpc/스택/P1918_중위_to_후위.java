@@ -5,7 +5,10 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.Stack;
 
-public class P1918 {
+/**
+ * 중위를 후위로 변환
+ */
+public class P1918_중위_to_후위 {
 
   private static int priority(char c) {
     switch (c) {
