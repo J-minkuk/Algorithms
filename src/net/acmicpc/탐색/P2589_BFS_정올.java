@@ -5,6 +5,10 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.*;
 
+/**
+ * 보물섬
+ * TODO 플로이드-워샬로 가능??
+ */
 public class P2589_BFS_정올 {
     static int H, W;
     static int[][] dir = {{-1, 0}, {0, 1}, {1, 0}, {0, -1}};
