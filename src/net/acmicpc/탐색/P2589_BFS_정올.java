@@ -7,7 +7,6 @@ import java.util.*;
 
 /**
  * 보물섬
- * TODO 플로이드-워샬로 가능??
  */
 public class P2589_BFS_정올 {
     static int H, W;
