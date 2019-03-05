@@ -52,6 +52,9 @@
 * [Contact - SWEA(1238)](./src/com/swea/D4/D4_1238.java) - BFS
 * [보급로 - SWEA(1249)](./src/com/swea/D4/R_D4_1249.java) - BFS
 
+## 이진탐색
+* [사냥꾼 - BOJ(8983)](./src/net/acmicpc/탐색/P8983_이진탐색.java)
+
 ## 스택
 * [괄호짝짓기 - SWEA(1218)](./src/com/swea/D4/D4_1218_스택.java)
 * [계산기3 - SWEA(1224)](./src/com/swea/D4/D4_1224.java)
@@ -70,4 +73,5 @@
 * [GCD(N, K) = 1 - BOJ(11689)](./src/net/acmicpc/수학/P11689_오일러공식.java) - 오일러 공식
 
 ## 알고리즘 활용
+* [최소스패닝트리 - SWEA(3124)](./src/com/swea/D4/D4_3124_최소스패닝트리.java) - 크루스칼 (최소 신장 트리)
 * [사람네트워크2 - SWEA(1263)](./src/com/swea/D6/D6_1263.java) - 플로이드 워샬
