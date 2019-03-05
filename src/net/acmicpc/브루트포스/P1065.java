@@ -32,7 +32,6 @@ public class P1065 {
   }
 
   static int numberCheck(int number) {
-    // TODO first에 '% 10'이 있고 없고 무슨 차이지 ??
     int first = number / 100 % 10;
     int second = number / 10 % 10;
     int third = number % 10;

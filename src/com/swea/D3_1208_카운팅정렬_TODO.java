@@ -1,6 +1,5 @@
 package com.swea;
 
-import java.io.IOException;
 import java.util.Scanner;
 
 public class D3_1208_카운팅정렬_TODO {
@@ -9,7 +8,7 @@ public class D3_1208_카운팅정렬_TODO {
   static int DUMP;
   static int[] count;
 
-  public static void main(String[] args) throws IOException {
+  public static void main(String[] args) {
     Scanner sc = new Scanner(System.in);
     int T = 10;
     int N = 10;

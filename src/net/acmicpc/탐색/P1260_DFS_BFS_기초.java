@@ -15,7 +15,7 @@ public class P1260_DFS_BFS_기초 {
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         String[] str = br.readLine().split(" ");
-        N = Integer.parseInt(str[0]);   // 정점수
+        N = Integer.parseInt(str[0]);       // 정점수
         int M = Integer.parseInt(str[1]);   // 간선수
         int V = Integer.parseInt(str[2]);   // 시작 정점
         graph = new int[N + 1][N + 1];
@@ -50,7 +50,7 @@ public class P1260_DFS_BFS_기초 {
         visited[from] = true;
         System.out.print(from + " ");
 
-        while(!q.isEmpty()) {
+        while (!q.isEmpty()) {
             int temp = q.poll();
             for (int to = 1; to <= N; ++to) {
                 if (graph[temp][to] == 1 && !visited[to]) {
