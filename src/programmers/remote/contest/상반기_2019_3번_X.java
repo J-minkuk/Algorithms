@@ -4,7 +4,7 @@ package programmers.remote.contest;
  * 완벽하게 풀지 못함
  * 47.6
  */
-public class Solution3 {
+public class 상반기_2019_3번_X {
 
   public int[] solution(int[] healths, int[][] items) {
     int[] answer = new int[healths.length];
@@ -38,7 +38,7 @@ public class Solution3 {
   }
 
   public static void main(String[] args) {
-    Solution3 temp = new Solution3();
+    상반기_2019_3번_X temp = new 상반기_2019_3번_X();
     int[] h = {200, 120, 150};
     int[][] items = {{30, 100}, {500, 30}, {100, 400}};
     temp.solution(h, items);

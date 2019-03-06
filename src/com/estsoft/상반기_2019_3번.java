@@ -1,6 +1,6 @@
 package com.estsoft;
 
-public class Third {
+public class 상반기_2019_3번 {
   private final static int[] dr = {-1, -1, -1};
   private final static int[] dc = {-1, 0, 1};
   private static char[][] area;

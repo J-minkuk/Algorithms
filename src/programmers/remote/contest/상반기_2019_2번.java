@@ -2,7 +2,7 @@ package programmers.remote.contest;
 
 import java.util.Arrays;
 
-public class Solution2 {
+public class 상반기_2019_2번 {
 
   public int solution(int[] people, int[] tshirts) {
     int answer = 0;
@@ -25,7 +25,7 @@ public class Solution2 {
   }
 
   public static void main(String[] args) {
-    Solution2 temp = new Solution2();
+    상반기_2019_2번 temp = new 상반기_2019_2번();
     int[] p = {3, 2};
     int[] t = {1, 2, 3};
     System.out.println(temp.solution(p, t));

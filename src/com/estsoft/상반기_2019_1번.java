@@ -1,6 +1,6 @@
 package com.estsoft;
 
-public class First {
+public class 상반기_2019_1번 {
 //  private static int solution(int[] ranks) {
 //    int count = 0;
 //    int size = ranks.length;

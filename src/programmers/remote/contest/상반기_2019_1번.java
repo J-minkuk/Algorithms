@@ -3,7 +3,7 @@ package programmers.remote.contest;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Solution1 {
+public class 상반기_2019_1번 {
   static int[] result = new int[3];
   static int totalCount;
   static List<Integer> primeList;
@@ -57,7 +57,7 @@ public class Solution1 {
   }
 
   public static void main(String[] args) {
-    Solution1 temp = new Solution1();
+    상반기_2019_1번 temp = new 상반기_2019_1번();
     System.out.println(temp.solution(9));
   }
 }

@@ -12,7 +12,6 @@ import java.util.StringTokenizer;
  * lower bounds 버전
  */
 public class P8983_이진탐색 {
-
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         StringTokenizer st = new StringTokenizer(br.readLine().trim());

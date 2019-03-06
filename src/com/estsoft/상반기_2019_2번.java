@@ -1,6 +1,6 @@
 package com.estsoft;
 
-public class Second {
+public class 상반기_2019_2번 {
   static int[] check;
 
   private static int dfs(int[] A, int idx) {
