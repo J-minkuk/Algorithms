@@ -16,8 +16,12 @@
 * [상호의배틀필드 - SWEA(1873)](./src/com/swea/D3/D3_1873.java)
 
 ## 정렬
+* [카운팅정렬](./src/com/algorithm/CountingSort.java)
 * [중간값찾기 - SWEA(2063)](./src/com/swea/D1/D1_2063_카운팅정렬.java) - 카운팅 정렬
 * [단어정렬 - BOJ(1181)](./src/net/acmicpc/정렬/P1181_Comparator.java) - Comparator
+
+## DP
+* [피보나치](./src/com/algorithm/Fibonacci3_DP.java)
 
 ## 순열 & 조합
 * [모든순열 - BOJ(10974)](./src/net/acmicpc/순열조합/P10974_순열.java) - 순열
@@ -51,6 +55,7 @@
 * [보물섬 - BOJ(2589)](./src/net/acmicpc/탐색/P2589_BFS_정올.java) - BFS
 * [Contact - SWEA(1238)](./src/com/swea/D4/D4_1238.java) - BFS
 * [보급로 - SWEA(1249)](./src/com/swea/D4/R_D4_1249.java) - BFS
+* [토마토2 - BOJ(7569)](./src/net/acmicpc/탐색/P7569_BFS.java) - BFS, 3차원 배열, 클래스 활용
 
 ## 이진탐색
 * [사냥꾼 - BOJ(8983)](./src/net/acmicpc/탐색/P8983_이진탐색.java)
