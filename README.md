@@ -38,6 +38,7 @@
 * [N과M(11) - BOJ(15665)](./src/net/acmicpc/순열조합/P15665_순열.java) - 순열
 * [N과M(12) - BOJ(15666)](./src/net/acmicpc/순열조합/P15666_순열.java) - 순열
 * [GCD합 - BOJ(9613)](./src/net/acmicpc/순열조합/P9613_조합.java) - 조합
+* [다음순열 - BOJ(10972)](./src/net/acmicpc/순열조합/P10972_next_permutation.java) - NextPermutation(STL)
 
 ## 탐색
 * [DFS와BFS - BOJ(1260)](./src/net/acmicpc/탐색/P1260_DFS_BFS_기초.java)
