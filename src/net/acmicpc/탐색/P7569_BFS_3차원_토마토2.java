@@ -6,7 +6,7 @@ import java.io.InputStreamReader;
 import java.util.LinkedList;
 import java.util.Queue;
 
-public class P7569_BFS {
+public class P7569_BFS_3차원_토마토2 {
     static int M, N, H, max;
     static int[][][] tmt;
     static int[][] dir = {{-1, 0}, {0, 1}, {1, 0}, {0, -1}};
@@ -29,6 +29,7 @@ public class P7569_BFS {
         N = Integer.parseInt(MNH[1]);
         H = Integer.parseInt(MNH[2]);
         tmt = new int[H][N][M];
+
         boolean flag = false;
         for (int h = 0; h < H; ++h) {
             for (int r = 0; r < N; ++r) {

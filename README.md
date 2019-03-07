@@ -56,7 +56,8 @@
 * [보물섬 - BOJ(2589)](./src/net/acmicpc/탐색/P2589_BFS_정올.java) - BFS
 * [Contact - SWEA(1238)](./src/com/swea/D4/D4_1238.java) - BFS
 * [보급로 - SWEA(1249)](./src/com/swea/D4/R_D4_1249.java) - BFS
-* [토마토2 - BOJ(7569)](./src/net/acmicpc/탐색/P7569_BFS.java) - BFS, 3차원 배열, 클래스 활용
+* [토마토2 - BOJ(7569)](./src/net/acmicpc/탐색/P7569_BFS_3차원_토마토2.java) - BFS, 3차원 배열, 클래스 활용
+* [체스판위의공 - BOJ(16957)](./src/net/acmicpc/탐색/P16957_BFS_PriorityQueue.java) - BFS, PriorityQueue, 클래스 활용
 
 ## 이진탐색
 * [사냥꾼 - BOJ(8983)](./src/net/acmicpc/탐색/P8983_이진탐색.java)
