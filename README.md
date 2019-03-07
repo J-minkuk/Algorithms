@@ -52,6 +52,7 @@
 * [파핑파핑지뢰찾기 - SWEA(1868)](./src/com/swea/D4/D4_1868_DFS.java) - DFS
 * [격자판의숫자이어붙이기 - SWEA(2819)](./src/com/swea/D4/D4_2819.java) - DFS
 * [최적경로 - SWEA(1247)](./src/com/swea/D5/D5_1247.java) - DFS
+* [최대상금 - SWEA(1244)](./src/com/swea/D3/D3_1244_DFS.java) - DFS
 * [알고스팟 - BOJ(1261)](./src/net/acmicpc/탐색/P1261_BFS_클래스활용.java) - BFS & 클래스 활용
 * [보물섬 - BOJ(2589)](./src/net/acmicpc/탐색/P2589_BFS_정올.java) - BFS
 * [Contact - SWEA(1238)](./src/com/swea/D4/D4_1238.java) - BFS
