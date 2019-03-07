@@ -71,6 +71,10 @@
 ## 비트연산자
 * [민석이의과제체크하기 - SWEA(5431)](./src/com/swea/D3/D3_5431_비트연산자.java)
 
+## DisJointSet
+* [종교 - 정올(1863)](./src/com/jungol/정올_1863_DisJointSet.java)
+* [여행가자 - BOJ(1976)](./src/net/acmicpc/P1976_DisJointSet.java)
+
 ## 수학
 * [100만이하의모든소수 - SWEA(3131)](./src/com/swea/D3/D3_3131.java) - 에라토스테네스의 체
 * [베르트랑공준 - BOJ(4948)](./src/net/acmicpc/수학/P4948_베르트랑공준.java)

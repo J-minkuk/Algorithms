@@ -1,4 +1,4 @@
-package net.acmicpc.출력;
+package net.acmicpc.구현;
 
 /**
  * 강아지 그리기

@@ -1,20 +1,20 @@
-package net.acmicpc.출력;
+package net.acmicpc.구현;
 
 import java.util.Scanner;
 
 /**
- * 별찍기 - 4
+ * 별찍기 - 2
  */
 @SuppressWarnings("Duplicates")
-public class P2441 {
+public class P2439 {
 
   public static void main(String[] args) {
 
     Scanner scanner = new Scanner(System.in);
     int a = scanner.nextInt();
 
-    for (int i = a; i > 0; --i) {
-      for (int j = a; j > i; --j) {
+    for (int i = 1; i <= a; ++i) {
+      for (int j = 1; j <= a - i; ++j) {
         System.out.print(" ");
       }
       for (int k = a - i; k < a; ++k) {

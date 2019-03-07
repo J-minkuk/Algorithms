@@ -1,4 +1,4 @@
-package net.acmicpc.출력;
+package net.acmicpc.구현;
 
 import java.io.*;
 import java.util.ArrayList;

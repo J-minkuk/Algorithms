@@ -1,4 +1,4 @@
-package net.acmicpc.구현;
+package net.acmicpc.시뮬레이션;
 
 import java.io.BufferedReader;
 import java.io.IOException;
