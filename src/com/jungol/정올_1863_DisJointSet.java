@@ -6,9 +6,8 @@ import java.io.InputStreamReader;
 import java.util.Arrays;
 import java.util.StringTokenizer;
 
-public class 정올_1863_union {
+public class 정올_1863_DisJointSet {
     static int[] parents;
-    static boolean[] parentCheck;
 
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
@@ -19,7 +18,6 @@ public class 정올_1863_union {
         int M = Integer.parseInt(NM[1]);
 
         parents = new int[N];
-        parentCheck = new boolean[N];
         Arrays.fill(parents, -1);
 
         int ans = N;
