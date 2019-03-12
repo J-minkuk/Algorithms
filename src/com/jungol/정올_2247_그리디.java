@@ -14,7 +14,7 @@ import java.util.Comparator;
 12 17
 
  */
-public class 정올_2247 {
+public class 정올_2247_그리디 {
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         int N = Integer.parseInt(br.readLine());
