@@ -1,4 +1,4 @@
-package programmers.remote.contest;
+package coding.test.remote.contest.s2019;
 
 import java.util.ArrayList;
 import java.util.List;

@@ -1,6 +1,6 @@
-package com.estsoft;
+package coding.test.estsoft.s2019;
 
-public class 상반기_2019_2번 {
+public class Solution2 {
   static int[] check;
 
   private static int dfs(int[] A, int idx) {

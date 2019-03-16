@@ -1,6 +1,6 @@
-package com.estsoft;
+package coding.test.estsoft.s2019;
 
-public class 상반기_2019_3번 {
+public class Solution3 {
   private final static int[] dr = {-1, -1, -1};
   private final static int[] dc = {-1, 0, 1};
   private static char[][] area;

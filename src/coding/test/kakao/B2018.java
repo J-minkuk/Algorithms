@@ -1,4 +1,4 @@
-package com.kakao;
+package coding.test.kakao;
 
 import java.util.Scanner;
 

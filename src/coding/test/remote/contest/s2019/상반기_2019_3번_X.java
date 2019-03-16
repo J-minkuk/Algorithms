@@ -1,4 +1,4 @@
-package programmers.remote.contest;
+package coding.test.remote.contest.s2019;
 
 /**
  * 완벽하게 풀지 못함
