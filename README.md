@@ -21,7 +21,7 @@
 ## 정렬
 * [카운팅정렬](./src/com/algorithm/CountingSort.java)
 * [중간값찾기 - SWEA(2063)](./src/com/swea/D1/D1_2063_카운팅정렬.java) - 카운팅 정렬
-* [단어정렬 - BOJ(1181)](./src/net/acmicpc/정렬/P1181_Comparator.java) - Comparator
+* [단어정렬 - BOJ(1181)](./src/net/acmicpc/정렬/P1181_단어정렬_Comparator.java) - Comparator
 
 ## DP
 * [피보나치](./src/com/algorithm/Fibonacci3_DP.java)
@@ -78,7 +78,7 @@
 
 ## DisJointSet
 * [종교 - 정올(1863)](./src/com/jungol/정올_1863_DisJointSet.java)
-* [여행가자 - BOJ(1976)](./src/net/acmicpc/P1976_DisJointSet.java)
+* [여행가자 - BOJ(1976)](./src/net/acmicpc/DisJointSet/P1976_여행가자_DisJointSet.java)
 
 ## 수학
 * [100만이하의모든소수 - SWEA(3131)](./src/com/swea/D3/D3_3131_100만이하의모든소수.java) - 에라토스테네스의 체
