@@ -5,40 +5,37 @@ import java.util.List;
 import java.util.Scanner;
 
 /**
- * 에라토스테네스의 체
+ * 에라토스테네스의 체 활용
  */
-public class P1929_에라토스테네스의체 {
+public class P2960_에라토스테네스의체 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        int m = scanner.nextInt();
         int n = scanner.nextInt();
+        int k = scanner.nextInt();
 
         List<Boolean> numbers = new ArrayList<>();
         numbers.add(false);
         numbers.add(false);
 
+        // 2부터 n까지의 모든 정수 true
         for (int i = 2; i <= n; ++i) {
             numbers.add(i, true);
         }
 
+        ArrayList<Integer> list = new ArrayList<>();
         for (int i = 2; (i * i) <= n; ++i) {
             if (numbers.get(i)) {
+                list.add(i);
                 for (int j = (i * i); j <= n; j += i) {
                     numbers.set(j, false);
+                    if (!list.contains(j)) list.add(j);
                 }
             }
         }
 
-        List<Integer> primeList = new ArrayList<>();
-        for (int i = m; i < numbers.size(); ++i) {
-            if (numbers.get(i)) {
-                primeList.add(i);
-            }
+        for (int i = 2; i < numbers.size(); ++i) {
+            if (numbers.get(i) && !list.contains(i)) list.add(i);
         }
-
-        for (int value : primeList) {
-            System.out.println(value);
-        }
-
+        System.out.println(list.get(k - 1));
     }
 }
