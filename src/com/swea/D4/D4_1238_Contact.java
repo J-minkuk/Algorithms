@@ -40,11 +40,12 @@ public class D4_1238_Contact {
             int size = q.size();
             int max = Integer.MIN_VALUE;
             for (int i = 0; i < size; ++i) {
-                int value = q.remove();
+                int value = q.poll();
+
                 for (int p = 1; p < 101; ++p) {
                     if (visited[p]) continue;
                     if (info[value][p] == 1) {
-                        q.add(p);
+                        q.offer(p);
                         visited[p] = true;
                         max = Math.max(max, p);
                     }
