@@ -1,4 +1,5 @@
 # Algorithms
+## https://mingooddev.blog.me/
 ```
 나만의 강아지 만들기 ? 
 그루트 만들기 ?
@@ -14,6 +15,7 @@
 * [숫자배열회전 - SWEA(1961)](./src/com/swea/D2/D2_1961_숫자배열회전.java)
 * [스도쿠검증 - SWEA(1974)](./src/com/swea/D2/D2_1974_스도쿠검증.java)
 * [상호의배틀필드 - SWEA(1873)](./src/com/swea/D3/D3_1873_상호의배틀필드.java)
+* [준오는조류혐오야 - BOJ(14647)](./src/net/acmicpc/시뮬레이션/P14647_준오는조류혐오야.java)
 
 ## 브루트 포스
 * [지도 칠하기 - SWEA(7208)](./src/com/swea/D4/D4_7208_지도칠하기.java)
@@ -25,6 +27,7 @@
 
 ## DP
 * [피보나치](./src/com/algorithm/Fibonacci3_DP.java)
+* [RGB거리 - BOJ(1149)](./src/net/acmicpc/DP/P1149_RGB거리_DP.java)
 
 ## 순열 & 조합
 * [모든순열 - BOJ(10974)](./src/net/acmicpc/순열조합/P10974_순열.java) - 순열
@@ -61,6 +64,7 @@
 * [Contact - SWEA(1238)](./src/com/swea/D4/D4_1238_Contact.java) - BFS
 * [보급로 - SWEA(1249)](./src/com/swea/D4/D4_1249_보급로.java) - BFS
 * [토마토2 - BOJ(7569)](./src/net/acmicpc/탐색/P7569_BFS_3차원_토마토2.java) - BFS, 3차원 배열, 클래스 활용
+* [상벙빌딩 - BOJ(6593)](./src/net/acmicpc/탐색/P6593_상범빌딩_BFS_3차원.java) - BFS, 3차원 배열, 클래스 활용
 * [체스판위의공 - BOJ(16957)](./src/net/acmicpc/탐색/P16957_BFS_PriorityQueue.java) - BFS, PriorityQueue, 클래스 활용
 
 ## 이진탐색

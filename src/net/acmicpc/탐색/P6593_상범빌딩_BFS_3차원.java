@@ -62,7 +62,9 @@ public class P6593_상범빌딩_BFS_3차원 {
                     }
                 }
             }
+
             bfs();
+
             if (dis[endL][endR][endC] != Integer.MAX_VALUE)
                 System.out.printf("Escaped in %d minute(s).\n", dis[endL][endR][endC]);
             else System.out.println("Trapped!");
