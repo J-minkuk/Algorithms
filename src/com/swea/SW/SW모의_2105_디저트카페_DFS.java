@@ -1,4 +1,4 @@
-package com.swea;
+package com.swea.SW;
 
 import java.io.BufferedReader;
 import java.io.IOException;
