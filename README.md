@@ -1,15 +1,7 @@
 # Algorithms
 ## https://mingooddev.blog.me/
-```
-나만의 강아지 만들기 ? 
-그루트 만들기 ?
 
-|\_/|
-|> <|    //
-( ∇ )"""\
-|"^"`    |
-||_/``\\_|
-```
+---
 
 ## 시뮬레이션/구현
 * [숫자배열회전 - SWEA(1961)](./src/com/swea/D2/D2_1961_숫자배열회전.java)
@@ -28,6 +20,7 @@
 ## DP
 * [피보나치](./src/com/algorithm/Fibonacci3_DP.java)
 * [RGB거리 - BOJ(1149)](./src/net/acmicpc/DP/P1149_RGB거리_DP.java)
+* [가능한시험점수 - SWEA(3752)](./src/com/swea/D4/D4_3752_가능한시험점수_DP.java)
 
 ## 순열 & 조합
 * [모든순열 - BOJ(10974)](./src/net/acmicpc/순열조합/P10974_순열.java) - 순열
