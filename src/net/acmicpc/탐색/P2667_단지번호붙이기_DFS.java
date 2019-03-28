@@ -6,7 +6,7 @@ import java.io.InputStreamReader;
 import java.util.ArrayList;
 import java.util.Collections;
 
-public class P2667_DFS {
+public class P2667_단지번호붙이기_DFS {
     static int N, count = 0;
     static int[][] map;
     static boolean[][] visited;
