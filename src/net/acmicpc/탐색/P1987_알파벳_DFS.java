@@ -5,7 +5,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.HashMap;
 
-public class P1987_DFS {
+public class P1987_알파벳_DFS {
     static int N, M, max = 0;
     static char[][] map;
     static HashMap<Character, Boolean> check;

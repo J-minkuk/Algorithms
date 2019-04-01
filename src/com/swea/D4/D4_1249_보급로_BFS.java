@@ -6,7 +6,7 @@ import java.io.InputStreamReader;
 import java.util.LinkedList;
 import java.util.Queue;
 
-public class D4_1249_보급로 {
+public class D4_1249_보급로_BFS {
     static int N;
     static int[][] map;
     static int[][] distance;

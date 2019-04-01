@@ -4,7 +4,7 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
-public class P14888_DFS {
+public class P14888_연산자끼워넣기_DFS {
     static int N, min, max;
     static int[] num;
     static int[] operator;

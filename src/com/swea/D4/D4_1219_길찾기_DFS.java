@@ -2,7 +2,7 @@ package com.swea.D4;
 
 import java.util.Scanner;
 
-public class D4_1219_길찾기 {
+public class D4_1219_길찾기_DFS {
     static int[] arr1;
     static int[] arr2;
     static boolean flag;

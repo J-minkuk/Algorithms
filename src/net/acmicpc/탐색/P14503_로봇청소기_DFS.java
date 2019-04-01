@@ -4,7 +4,7 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
-public class P14503_DFS {
+public class P14503_로봇청소기_DFS {
     static int N;
     static int M;
     static int[][] map;

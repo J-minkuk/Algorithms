@@ -5,7 +5,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.HashSet;
 
-public class D4_2819_격자판의숫자이어붙이기 {
+public class D4_2819_격자판의숫자이어붙이기_DFS {
     static int[][] board = new int[4][4];
     static HashSet<Integer> set = new HashSet<>();
     static int[][] dir = {

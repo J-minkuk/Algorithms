@@ -21,7 +21,7 @@ import java.util.Comparator;
 0 0 0 0 0 0 0 0 0
 0 0 0 0 0 0 0 0 0
  */
-public class D4_1258_행렬찾기 {
+public class D4_1258_행렬찾기_DFS {
     static int N;
     static int[][] map;
     static ArrayList<Matrix> list;

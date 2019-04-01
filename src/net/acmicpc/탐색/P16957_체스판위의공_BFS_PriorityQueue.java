@@ -5,7 +5,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.*;
 
-public class P16957_BFS_PriorityQueue {
+public class P16957_체스판위의공_BFS_PriorityQueue {
     static int R, C;
     static int[][] map;
     static int[][] dir = {{-1, -1}, {-1, 0}, {-1, 1}, {0, 1}, {1, 1}, {1, 0}, {1, -1}, {0, -1}};

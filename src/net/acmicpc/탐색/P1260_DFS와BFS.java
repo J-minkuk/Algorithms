@@ -7,7 +7,7 @@ import java.util.Arrays;
 import java.util.LinkedList;
 import java.util.Queue;
 
-public class P1260_DFS_BFS_기초 {
+public class P1260_DFS와BFS {
     private static int N;
     private static int[][] graph;
     private static boolean[] visited;

@@ -4,8 +4,9 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
-public class D4_1226_미로1 {
-    static char[][] maze = new char[16][16];
+public class D4_1227_미로2_DFS {
+    static int N = 100;
+    static char[][] maze = new char[N][N];
     static int[][] dir = {
             {-1, 0}, {1, 0}, {0, -1}, {0, 1}
     };
@@ -17,15 +18,15 @@ public class D4_1226_미로1 {
         int T = 10;
         for (int t = 1; t <= T; ++t) {
             int tNum = Integer.parseInt(br.readLine());
-            for (int i = 0; i < 16; ++i) {
+            for (int i = 0; i < N; ++i) {
                 char[] chars = br.readLine().toCharArray();
-                for (int j = 0; j < 16; ++j) {
+                for (int j = 0; j < N; ++j) {
                     maze[i] = chars;
                 }
             }
 
             result = 0;
-            visited = new boolean[16][16];
+            visited = new boolean[N][N];
             dfs(1, 1);
             System.out.println("#" + tNum + " " + result);
         }
@@ -40,7 +41,7 @@ public class D4_1226_미로1 {
         for (int i = 0; i < 4; ++i) {
             int nC = c + dir[i][1];
             int nR = r + dir[i][0];
-            if (nC < 1 || nC > 15 || nR < 1 || nR > 15) continue;
+            if (nC < 1 || nC > N - 1 || nR < 1 || nR > N - 1) continue;
             if (!visited[nC][nR] && maze[nC][nR] == '0' || maze[nC][nR] == '3') {
                 dfs(nC, nR);
             }

@@ -8,7 +8,7 @@ import java.util.*;
 /**
  * 보물섬
  */
-public class P2589_BFS_정올 {
+public class P2589_보물섬_BFS_정올 {
     static int H, W;
     static int[][] dir = {{-1, 0}, {0, 1}, {1, 0}, {0, -1}};
     static char[][] map;

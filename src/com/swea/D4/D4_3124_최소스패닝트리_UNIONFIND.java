@@ -9,7 +9,7 @@ import java.util.StringTokenizer;
  * 크루스칼 알고리즘 활용
  * 최소 신장 트리
  */
-public class D4_3124_최소스패닝트리 {
+public class D4_3124_최소스패닝트리_UNIONFIND {
 
     static Edge[] edgeList;
     private static int[] parent;

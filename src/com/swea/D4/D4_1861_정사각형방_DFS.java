@@ -12,7 +12,7 @@ import java.util.Arrays;
 1 8 3 15
 7 11 4 9
  */
-public class D4_1861_정사각형방 {
+public class D4_1861_정사각형방_DFS {
     static int N, max, sR, sC, V;
     static int[][] map;
     static Node[] arr;

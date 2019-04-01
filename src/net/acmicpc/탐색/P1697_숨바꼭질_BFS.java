@@ -6,7 +6,7 @@ import java.io.InputStreamReader;
 import java.util.LinkedList;
 import java.util.Queue;
 
-public class P1697_숨바꼭질 {
+public class P1697_숨바꼭질_BFS {
     static int N, K;
     static int sec;
     static boolean[] visited;

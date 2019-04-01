@@ -9,7 +9,7 @@ import java.util.Queue;
 /**
  * SWEA - D4_1249 (보급로)와 유사함
  */
-public class P1261_BFS_클래스활용 {
+public class P1261_알고스팟_BFS {
     static int N, M;
     static char[][] map;
     static int[][] dis;

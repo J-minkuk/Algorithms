@@ -7,7 +7,7 @@ import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.Queue;
 
-public class 정올_1863_DFS {
+public class 정올_1863_종교_DFS {
     static int N, M;
     static boolean[] visited;
     static int[] check;

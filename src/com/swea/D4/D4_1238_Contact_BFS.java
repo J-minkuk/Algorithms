@@ -4,7 +4,7 @@ import java.util.LinkedList;
 import java.util.Queue;
 import java.util.Scanner;
 
-public class D4_1238_Contact {
+public class D4_1238_Contact_BFS {
     static int[][] info;
     static boolean[] visited;
     static int result;

@@ -7,7 +7,7 @@ import java.util.Scanner;
 /**
  * 그룹 단어 체커
  */
-public class P1316 {
+public class P1316_그룹단어체커 {
   public static void main(String[] args) {
     Scanner scanner = new Scanner(System.in);
     int testCase = scanner.nextInt();

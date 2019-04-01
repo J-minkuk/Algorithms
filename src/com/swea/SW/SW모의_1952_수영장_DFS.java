@@ -26,7 +26,7 @@ import java.util.Scanner;
 12 28 24 24 29 25 23 26 26 28 27 22
 
  */
-public class SW모의_P1952_수영장_DFS {
+public class SW모의_1952_수영장_DFS {
     static int day, month1, month3, year, min;
     static int[] plan;
 

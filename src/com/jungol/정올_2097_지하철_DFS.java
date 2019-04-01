@@ -43,7 +43,7 @@ import java.io.InputStreamReader;
 2 90 23 9 24 82 99 83 17 38 71 89 90 7 70 56 24 39 47 27 72 5 39 25 87 99 89 0
 
  */
-public class 정올_2097_DFS {
+public class 정올_2097_지하철_DFS {
     static int min, N, M;
     static int[][] graph;
     static String result;
