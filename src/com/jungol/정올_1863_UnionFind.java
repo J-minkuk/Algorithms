@@ -6,7 +6,7 @@ import java.io.InputStreamReader;
 import java.util.Arrays;
 import java.util.StringTokenizer;
 
-public class 정올_1863_DisJointSet {
+public class 정올_1863_UnionFind {
     static int[] parents;
 
     public static void main(String[] args) throws IOException {
@@ -30,12 +30,12 @@ public class 정올_1863_DisJointSet {
         System.out.println(ans);
     }
 
-    static int find(int a) {
+    private static int find(int a) {
         if (parents[a] < 0) return a;
         return parents[a] = find(parents[a]);
     }
 
-    static boolean union(int a, int b) {
+    private static boolean union(int a, int b) {
         int aRoot = find(a);
         int bRoot = find(b);
         if (aRoot != bRoot) {

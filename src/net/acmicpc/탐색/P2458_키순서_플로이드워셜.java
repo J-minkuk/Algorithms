@@ -5,7 +5,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.Arrays;
 
-public class P2458_키순서_플로이드워샬 {
+public class P2458_키순서_플로이드워셜 {
     static int N, M;
     static int[][] adjMat;
     static int[] answer;

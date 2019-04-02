@@ -13,7 +13,7 @@ import java.io.InputStreamReader;
 18 7 17 4 0
 
  */
-public class 정올_1681_해밀턴순환회로 {
+public class 정올_1681_해밀턴순환회로_DFS {
     static int N, min;
     static int[][] map;
     static boolean[] visited;
