@@ -4,7 +4,7 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
-public class P1976_여행가자_DisJointSet {
+public class P1976_여행가자_UnionFind {
     static int[] check;
 
     public static void main(String[] args) throws IOException {
