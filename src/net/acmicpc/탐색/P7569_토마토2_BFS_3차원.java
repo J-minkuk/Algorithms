@@ -7,7 +7,7 @@ import java.util.LinkedList;
 import java.util.Queue;
 
 public class P7569_토마토2_BFS_3차원 {
-    static int M, N, H, max;
+    static int M, N, H, min;
     static int[][][] tmt;
     static int[][] dir = {{-1, 0}, {0, 1}, {1, 0}, {0, -1}};
 
@@ -58,9 +58,9 @@ public class P7569_토마토2_BFS_3차원 {
             }
         }
 
-        max = 0;
+        min = 0;
         bfs();
-        System.out.println(max);
+        System.out.println(min);
 
 //        for (int h = 0; h < H; ++h) {
 //            for (int r = 0; r < N; ++r) {
@@ -99,7 +99,7 @@ public class P7569_토마토2_BFS_3차원 {
 
         while (!q.isEmpty()) {
             Node node = q.poll();
-            max = Math.max(max, node.day);
+            min = node.day;
 
             for (int d = 0; d < 4; ++d) {
                 int nH = node.h;
